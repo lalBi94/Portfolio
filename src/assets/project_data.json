@@ -1,0 +1,50 @@
+{
+    "nyru": {
+        "title": "Portfolio de Nyru Vizion",
+        "content": "Projet est initié par 'Nyru', étudiant en graphisme. Le site internet a été construit sans aucun backend. Les données tels que ses projets sont stocké dans un json donc directement modifiable par l'auteur.",
+        "link": "https://nyru.netlify.app/",
+        "source": "https://github.com/nyruvizion/NYRU",
+        "image": "https://raw.githubusercontent.com/nyruvizion/NYRU/main/public/logo_100x100.png",
+        "status": "Actif"
+    },
+    "lesdelicesdekatia": {
+        "title": "Les Délices de Katia",
+        "content": "Site web est initié par Katia, traiteuse sur Fontainebleau. Le but, pouvoir reserver des articles en ligne pour les recuperer sur le stand du marché a l'aide d'un code. Le frontend en React.js, le backend en Express.js et j'utilise MongoDB pour la base de données.",
+        "link": "https://lesdelicesdekatia.netlify.app/",
+        "source": "https://github.com/lalBi94/FLDKatia",
+        "image": "https://lesdelicesdekatia.netlify.app/assets/logo-96e10a96.png",
+        "status": "En cours"
+    },
+    "codetrichesims": {
+        "title": "Codes de triche Sims",
+        "content": "C'est une interface en React.js ayant le meme fonctionnement que le Portfolio de Nyru par rapport aux json. Il permet de copier-coller les codes de triche disponible sur 'Les Sims 4'.",
+        "link": "https://lalbi94.github.io/Douze/",
+        "source": "https://github.com/lalBi94/Douze",
+        "image": "https://raw.githubusercontent.com/lalBi94/Douze/master/public/favico.ico",
+        "status": "Actif"
+    },
+    "bruteforce": {
+        "title": "Décodeur de Hash",
+        "content": "Encore une interface signé React.js. Celle-ci permets de 'brute force' des hashs a l'aide de la puissance du client. Il utilise plusieurs wordlists trouvable sur le net pour pouvoir faire le lien entre le hash et un mot quelconque. L'interface n'est pas responsive par faute de temps.",
+        "link": "https://lalbi94.github.io/ZBrutF/",
+        "source": "https://github.com/lalBi94/ZBrutF",
+        "image": "https://raw.githubusercontent.com/lalBi94/ZBrutF/master/public/favicon.ico",
+        "status": "Actif"
+    },
+    "zodshop": {
+        "title": "Mon ancien site marchand",
+        "content": "Site de mon ancienne activité sur les serveurs de jeu Five M. Ce site n'est plus d'actualité.",
+        "link": "https://lalbi94.github.io/zodshop/",
+        "source": "https://github.com/lalBi94/ZODShop/",
+        "image": "https://github.com/lalBi94/ZODShop/blob/master/public/icon.png?raw=true",
+        "status": "Inactif"
+    },
+    "myporfolio": {
+        "title": "Mon Portfolio",
+        "content": "Développé en React.js puis stylisé grace a Joy UI. Il résume ma situation actuel",
+        "link": "",
+        "source": "https://github.com/lalBi94/portfolio/",
+        "image": "https://cdn-icons-png.flaticon.com/512/748/748916.png",
+        "status": "Actif"
+    }
+}

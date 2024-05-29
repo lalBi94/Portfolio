@@ -1,0 +1,90 @@
+{
+    "lowLevel": {
+        "list": [
+            {
+                "name": "Rust",
+                "note": 75,
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgh6QStxPLOiyQp-4tVboBMG_0eqYNUT1rA&s",
+                "link": "https://github.com/lalBi94?tab=repositories&q=&type=&language=rust&sort="
+            },
+            {
+                "name": "Arduino x Rust",
+                "note": 40,
+                "image": "https://blog.mbedded.ninja/programming/languages/rust/running-rust-on-microcontrollers/ewg-logo-blue-white-on-transparent.png",
+                "link": ""
+            },
+            {
+                "name": "C",
+                "note": 60,
+                "image": "https://cms-informatic.com/wp-content/uploads/2020/01/logo-langage-C-300x300.png",
+                "link": ""
+            }
+        ]
+    },
+    "hightLevel": {
+        "list": [
+            {
+                "name": "Java",
+                "note": 70,
+                "image": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png",
+                "link": ""
+            }
+        ]
+    },
+    "automatisation": {
+        "list": [
+            {
+                "name": "Docker",
+                "note": 75,
+                "image": "https://cdn-icons-png.flaticon.com/512/919/919853.png",
+                "link": ""
+            },
+            {
+                "name": "Make",
+                "note": 80,
+                "image": "https://plugins.jetbrains.com/files/9333/544862/icon/pluginIcon.png",
+                "link": ""
+            }
+        ]
+    },
+    "web": {
+        "list": [
+            {
+                "name": "Javascript",
+                "note": 100,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+                "link": "https://github.com/lalBi94?tab=repositories&q=&type=&language=javascript&sort="
+            },
+            {
+                "name": "Node.js",
+                "note": 90,
+                "image": "https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
+                "link": "https://github.com/lalBi94?tab=repositories&q=&type=&language=javascript&sort="
+            },
+            {
+                "name": "Express.js",
+                "note": 90,
+                "image": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
+                "link": "https://github.com/lalBi94/SLDKatia"
+            },
+            {
+                "name": "React.js",
+                "note": 95,
+                "image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+                "link": "https://github.com/lalBi94/FLDKatia"
+            },
+            {
+                "name": "HTML/SCSS",
+                "note": 100,
+                "image": "https://rbytes.pl/wp-content/uploads/elementor/thumbs/HTML-CSS-LOGO-SQUARE-ooz0xnm0n2xysalnx6h7l8qkzxpo1xckpmcr27psn8.png",
+                "link": ""
+            },
+            {
+                "name": "PHP",
+                "note": 50,
+                "image": "https://cdn-icons-png.flaticon.com/512/5968/5968332.png",
+                "link": "https://github.com/lalBi94?tab=repositories&q=&type=&language=php&sort="
+            }
+        ]
+    }
+}
