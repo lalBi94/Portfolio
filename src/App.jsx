@@ -20,7 +20,7 @@ export default function App() {
             <Skills />
             <Divider orientation="horizontal" />
 
-            <Stack direction="row" gap={3}>
+            <Stack direction="row" flexWrap="wrap" gap={3}>
                 <Localisation />
                 <Divider orientation="vertical" />
                 <Contact />
