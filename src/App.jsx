@@ -34,7 +34,7 @@ export default function App() {
                 label="Bilal Boudjemline"
                 color="warning"
             >
-                Portofolio sous license MIT
+                Portfolio sous license MIT
             </Chip>
         </Box>
     );

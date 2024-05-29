@@ -10,8 +10,8 @@ export default function Introduction() {
                     Bonjour et bienvenue sur mon portfolio !
                 </Typography>
                 <Typography>
-                    Vous y retrouverai mon parcours, mes projets et mes
-                    ambitions d'avenir.
+                    Vous y découvrirez mon parcours professionnel, mes projets
+                    en cours, ainsi que mes ambitions pour l'avenir.
                 </Typography>
             </Box>
         </Box>
