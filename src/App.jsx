@@ -7,24 +7,43 @@ import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
 import Localisation from "./sections/Localisation";
 import Network from "./sections/Network";
+import Lang from "./sections/Lang";
 
 export default function App() {
     return (
         <Box container display="flex" flexDirection="column" gap={4.3}>
             <Introduction />
-            <Divider orientation="horizontal" />
+            <Divider className="dispear-on-phone" orientation="horizontal" />
             <ParcoursEtu />
-            <Divider orientation="horizontal" />
+            <Divider className="dispear-on-phone" orientation="horizontal" />
             <Project />
-            <Divider orientation="horizontal" />
+            <Divider className="dispear-on-phone" orientation="horizontal" />
             <Skills />
-            <Divider orientation="horizontal" />
+            <Divider className="dispear-on-phone" orientation="horizontal" />
 
-            <Stack direction="row" flexWrap="wrap" gap={3}>
+            <Stack display="flex" direction="row" flexWrap="wrap" gap={3}>
                 <Localisation />
-                <Divider orientation="vertical" />
-                <Contact />
-                <Divider orientation="vertical" />
+                <Divider className="dispear-on-phone" orientation="vertical" />
+
+                <Box
+                    gap={1.5}
+                    flexWrap="wrap"
+                    display="flex"
+                    flexDirection="column"
+                    className="take-full-size"
+                >
+                    <Contact />
+
+                    <Divider
+                        className="dispear-on-phone"
+                        orientation="horizontal"
+                    />
+
+                    <Lang />
+                </Box>
+
+                <Divider className="dispear-on-phone" orientation="vertical" />
+
                 <Network />
             </Stack>
 

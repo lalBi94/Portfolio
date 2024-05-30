@@ -2,11 +2,27 @@ import { Typography, Box } from "@mui/joy";
 
 export default function Localisation() {
     return (
-        <Box component="div" display="flex" flexDirection="column" gap={2}>
+        <Box
+            component="div"
+            display="flex"
+            flexWrap="wrap"
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+            className="take-full-size"
+            gap={2}
+        >
             <Typography textAlign="center" level="h3">
                 Localisation
             </Typography>
-            <Box component="div" display="flex" flexDirection="row" gap={2}>
+
+            <Box
+                component="div"
+                flexWrap="wrap"
+                display="flex"
+                flexDirection="row"
+                gap={2}
+            >
                 <Box>
                     <iframe
                         width="200"

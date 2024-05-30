@@ -4,7 +4,15 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
 export default function Contact() {
     return (
-        <Box component="div" display="flex" flexDirection="column" gap={2}>
+        <Box
+            component="div"
+            display="flex"
+            flexWrap="wrap"
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+            gap={2}
+        >
             <Typography level="h3" textAlign="center">
                 Coordonées
             </Typography>

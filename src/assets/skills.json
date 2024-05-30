@@ -28,6 +28,12 @@
                 "note": 70,
                 "image": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png",
                 "link": ""
+            },
+            {
+                "name": "Lua",
+                "note": 65,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/600px-Lua-Logo.svg.png",
+                "link": ""
             }
         ]
     },
@@ -43,6 +49,82 @@
                 "name": "Make",
                 "note": 80,
                 "image": "https://plugins.jetbrains.com/files/9333/544862/icon/pluginIcon.png",
+                "link": ""
+            }
+        ]
+    },
+    "ide": {
+        "list": [
+            {
+                "name": "Visual Studio Code",
+                "note": 100,
+                "image": "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg",
+                "link": ""
+            },
+            {
+                "name": "Suite JetBrains",
+                "note": 80,
+                "image": "https://cdn.icon-icons.com/icons2/1381/PNG/512/jetbrainstoolbox_93803.png",
+                "link": ""
+            }
+        ]
+    },
+    "db": {
+        "list": [
+            {
+                "name": "MySQL",
+                "note": 75,
+                "image": "https://cdn-icons-png.flaticon.com/512/5968/5968313.png",
+                "link": ""
+            },
+            {
+                "name": "MongoDB",
+                "note": 80,
+                "image": "https://www.dbi-services.com/wp-content/uploads/2022/01/Logo-Mongodb-carre.png",
+                "link": ""
+            },
+            {
+                "name": "MariaDB",
+                "note": 75,
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx9qlAtE-LaK0rF5moSUDO8tuofBeL8CbDVg&s",
+                "link": ""
+            }
+        ]
+    },
+    "linux": {
+        "list": [
+            {
+                "name": "Debian 9",
+                "note": 65,
+                "image": "https://www.debian-fr.org/uploads/default/original/2X/d/d6a21ddf4ad51f046c1a2caeedd449488d52a665.png",
+                "link": ""
+            },
+            {
+                "name": "Ubuntu",
+                "note": 55,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/2048px-Logo-ubuntu_cof-orange-hex.svg.png",
+                "link": ""
+            },
+            {
+                "name": "ArchLinux",
+                "note": 50,
+                "image": "https://www.shareicon.net/download/2015/09/11/99301_archlinux_512x512.png",
+                "link": ""
+            }
+        ]
+    },
+    "dataschem": {
+        "list": [
+            {
+                "name": "UML",
+                "note": 80,
+                "image": "https://dhtmlx.com/blog/wp-content/uploads/2020/07/UML_class_diagram_final.png",
+                "link": ""
+            },
+            {
+                "name": "DCU",
+                "note": 75,
+                "image": "https://cdn-us-05.visual-paradigm.com/node/on/w/odktyugo/rest/diagrams/shares/diagram/92af9a87-ad21-47b7-b0a0-ea89a80d8749/preview.png",
                 "link": ""
             }
         ]

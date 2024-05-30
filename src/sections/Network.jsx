@@ -4,7 +4,14 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function Network() {
     return (
-        <Box component="div" display="flex" flexDirection="column" gap={2}>
+        <Box
+            className="take-full-size"
+            component="div"
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            gap={2}
+        >
             <Typography level="h3" textAlign="center">
                 Réseaux sociaux
             </Typography>

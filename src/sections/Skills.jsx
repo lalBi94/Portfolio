@@ -1,4 +1,4 @@
-import { Typography, Card, Box, Stack } from "@mui/joy";
+import { Typography, Box, Stack } from "@mui/joy";
 import SkillsCard from "../components/SkillsCard";
 import skills from "../assets/skills.json";
 
@@ -6,7 +6,7 @@ export default function Skills() {
     return (
         <Box display="flex" flexDirection="column" gap={4}>
             <Typography textAlign="center" level="h3">
-                Mes <u>Compétances Technique</u>
+                Ma <u>Stack Technique</u>
             </Typography>
 
             <Stack
@@ -82,6 +82,78 @@ export default function Skills() {
                                 image={skills.automatisation.list[s].image}
                                 note={skills.automatisation.list[s].note}
                                 link={skills.automatisation.list[s].link}
+                            />
+                        ))}
+                    </Stack>
+                </Box>
+
+                <Box display="flex" flexDirection="column" gap={3}>
+                    <Typography level="h4" textAlign="center">
+                        Éditeurs de <u>Code</u>
+                    </Typography>
+
+                    <Stack direction="row" flexWrap="wrap" gap={2}>
+                        {Object.keys(skills.ide.list).map((s, k) => (
+                            <SkillsCard
+                                key={k}
+                                title={skills.ide.list[s].name}
+                                image={skills.ide.list[s].image}
+                                note={skills.ide.list[s].note}
+                                link={skills.ide.list[s].link}
+                            />
+                        ))}
+                    </Stack>
+                </Box>
+
+                <Box display="flex" flexDirection="column" gap={3}>
+                    <Typography level="h4" textAlign="center">
+                        Bases de <u>Données</u>
+                    </Typography>
+
+                    <Stack direction="row" flexWrap="wrap" gap={2}>
+                        {Object.keys(skills.db.list).map((s, k) => (
+                            <SkillsCard
+                                key={k}
+                                title={skills.db.list[s].name}
+                                image={skills.db.list[s].image}
+                                note={skills.db.list[s].note}
+                                link={skills.db.list[s].link}
+                            />
+                        ))}
+                    </Stack>
+                </Box>
+
+                <Box display="flex" flexDirection="column" gap={3}>
+                    <Typography level="h4" textAlign="center">
+                        Distributions <u>Linux</u>
+                    </Typography>
+
+                    <Stack direction="row" flexWrap="wrap" gap={2}>
+                        {Object.keys(skills.linux.list).map((s, k) => (
+                            <SkillsCard
+                                key={k}
+                                title={skills.linux.list[s].name}
+                                image={skills.linux.list[s].image}
+                                note={skills.linux.list[s].note}
+                                link={skills.linux.list[s].link}
+                            />
+                        ))}
+                    </Stack>
+                </Box>
+
+                <Box display="flex" flexDirection="column" gap={3}>
+                    <Typography level="h4" textAlign="center">
+                        Schématisation d'un <u>Système</u>
+                    </Typography>
+
+                    <Stack direction="row" flexWrap="wrap" gap={2}>
+                        {Object.keys(skills.dataschem.list).map((s, k) => (
+                            <SkillsCard
+                                key={k}
+                                title={skills.dataschem.list[s].name}
+                                image={skills.dataschem.list[s].image}
+                                note={skills.dataschem.list[s].note}
+                                link={skills.dataschem.list[s].link}
                             />
                         ))}
                     </Stack>
