@@ -20,6 +20,10 @@ export default function App() {
             <Skills />
             <Divider orientation="horizontal" />
 
+            <MapContainer center={[50.5, 30.5]} zoom={13}>
+                <MyComponent />
+            </MapContainer>
+
             <Stack direction="row" flexWrap="wrap" gap={3}>
                 <Localisation />
                 <Divider orientation="vertical" />
