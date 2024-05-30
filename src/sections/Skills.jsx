@@ -158,6 +158,24 @@ export default function Skills() {
                         ))}
                     </Stack>
                 </Box>
+
+                <Box display="flex" flexDirection="column" gap={3}>
+                    <Typography level="h4" textAlign="center">
+                        Machines <u>Virtuelles</u>
+                    </Typography>
+
+                    <Stack direction="row" flexWrap="wrap" gap={2}>
+                        {Object.keys(skills.virtualization.list).map((s, k) => (
+                            <SkillsCard
+                                key={k}
+                                title={skills.virtualization.list[s].name}
+                                image={skills.virtualization.list[s].image}
+                                note={skills.virtualization.list[s].note}
+                                link={skills.virtualization.list[s].link}
+                            />
+                        ))}
+                    </Stack>
+                </Box>
             </Stack>
         </Box>
     );

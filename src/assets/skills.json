@@ -129,6 +129,22 @@
             }
         ]
     },
+    "virtualization": {
+        "list": [
+            {
+                "name": "VMWare",
+                "note": 80,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/VMware_Workstation_11.0_icon.png",
+                "link": ""
+            },
+            {
+                "name": "Virtual Box",
+                "note": 80,
+                "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png",
+                "link": ""
+            }
+        ]
+    },
     "web": {
         "list": [
             {
