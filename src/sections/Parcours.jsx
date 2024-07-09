@@ -17,6 +17,7 @@ import upecLogo from "../assets/upec.png";
 import paulBert from "../assets/paulbert.jpeg";
 import frenchConnection from "../assets/frenchconnection.jpeg";
 import llisNetwork from "../assets/llisnetwork.jpeg";
+import ESIEE from "../assets/esiee.jpg";
 
 export default function ParcoursEtu() {
     return (
@@ -39,6 +40,60 @@ export default function ParcoursEtu() {
                                 variant="soft"
                                 size="sm"
                             />
+                        }
+                    >
+                        <Box display="flex" flexDirection="column" gap={1}>
+                            <Accordion variant="plain">
+                                <AccordionSummary color="warning">
+                                    <Box
+                                        display="flex"
+                                        flexDirection="row"
+                                        justifyContent="space-between"
+                                        width="100%"
+                                    >
+                                        <Typography>
+                                            Diplome d'ingénieur{" "}
+                                        </Typography>
+                                        <Chip
+                                            variant="outlined"
+                                            color="warning"
+                                            size="sm"
+                                            sx={{ pointerEvents: "none" }}
+                                        >
+                                            BAC +4/5
+                                        </Chip>
+                                    </Box>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>— ESIEE PARIS</Typography>
+                                    <Typography>
+                                        — Informatique & Électronique
+                                    </Typography>
+                                    <Typography>
+                                        — 2024 ➜ 2027 à Noisy-Le-Grand
+                                    </Typography>
+                                </AccordionDetails>
+                            </Accordion>
+
+                            <AspectRatio
+                                style={{ width: "100px" }}
+                                ratio="21/9"
+                            >
+                                <img
+                                    alt="logo de l'upec"
+                                    loading="lazy"
+                                    src={ESIEE}
+                                />
+                            </AspectRatio>
+                        </Box>
+                    </Step>
+
+                    <Step
+                        orientation="vertical"
+                        indicator={
+                            <StepIndicator variant="solid" color="success">
+                                <CheckCircleIcon />
+                            </StepIndicator>
                         }
                     >
                         <Box display="flex" flexDirection="column" gap={1}>
